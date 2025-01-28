@@ -91,7 +91,7 @@ export default function Footer() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            &copy; 2025 YourStore. All Rights Reserved.
+            &copy; 2025 Ahmed Mansour. All Rights Reserved.
           </motion.p>
         </div>
       </div>
