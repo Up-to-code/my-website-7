@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 export const navItems = [
   { name: "Home", href: "/" },
@@ -14,7 +15,10 @@ export const navItems = [
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-
+ const  url = usePathname()
+ if(url.startsWith('/admin')){
+  return null
+ }
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10)
