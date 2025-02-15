@@ -43,7 +43,7 @@
     "@uiw/react-md-editor": "^4.0.5",
     "@uploadthing/react": "^7.2.0",
     "autoprefixer": "^10.4.20",
-    "better-auth": "^1.1.16",
+    "better-auth": "^1.1.18",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",
