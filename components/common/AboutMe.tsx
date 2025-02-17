@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <section id="about-me" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">Who’s This Guy? 🤔</h2>
         <div className="flex flex-col md:flex-row gap-12">
           <motion.div
             className="md:w-1/3 flex justify-center"
@@ -17,8 +17,8 @@ export default function AboutMe() {
           >
             <img
               src="/me.jpg"
-              alt="Your Name"
-              className="w-48 h-48 rounded-full object-cover"
+              alt="Ahmed Mansour"
+              className="w-48 h-48 rounded-full object-cover shadow-lg"
             />
           </motion.div>
 
@@ -30,7 +30,7 @@ export default function AboutMe() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              Hi, I'm Ahmed Mansour, a passionate web developer.
+              Hey there! I'm Ahmed Mansour, your friendly neighborhood web developer. 🕸️
             </motion.h3>
 
             <motion.p
@@ -40,10 +40,8 @@ export default function AboutMe() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              I specialize in building modern and dynamic websites and applications using
-              technologies like React, Node.js, Next.js, Firebase, and more. With years of
-              experience, I am dedicated to creating seamless user experiences and solving
-              complex problems with efficient solutions.
+              I build sleek, fast, and highly functional websites and applications. If it's got
+              React, Next.js, or Node.js in it, you can bet I’m already caffeinated and coding! ☕
             </motion.p>
 
             <motion.h4
@@ -53,7 +51,7 @@ export default function AboutMe() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              Key Skills:
+              🔥 What I Do Best:
             </motion.h4>
 
             <motion.ul
@@ -63,11 +61,12 @@ export default function AboutMe() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <li>Frontend Development (React, Next.js, Tailwind CSS)</li>
-              <li>Backend Development (Node.js, Express, Firebase)</li>
-              <li>Database Management (MongoDB, SQL, Firebase Firestore)</li>
-              <li>UI/UX Design (Figma, Wireframing, Prototyping)</li>
-              <li>Mobile Development (React Native, Expo)</li>
+              <li>Turning coffee into clean, maintainable code ☕</li>
+              <li>Frontend magic with React, Next.js & Tailwind ✨</li>
+              <li>Backend sorcery using Node.js, Express & Firebase 🛠️</li>
+              <li>Creating databases that actually behave (MongoDB, SQL, Firestore) 🗃️</li>
+              <li>Making UI/UX look awesome (Figma, wireframes, prototypes) 🎨</li>
+              <li>Crafting mobile apps with React Native & Expo 📱</li>
             </motion.ul>
 
             <motion.h4
@@ -77,7 +76,7 @@ export default function AboutMe() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              Hobbies & Interests:
+              🎯 Fun Facts About Me:
             </motion.h4>
 
             <motion.p
@@ -87,9 +86,9 @@ export default function AboutMe() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              When I'm not coding, I enjoy exploring new technologies, photography, and
-              traveling. I believe that creativity and exploration are key components of both
-              work and life.
+              When I’m not writing code, I’m probably debugging my life decisions, exploring new 
+              tech, snapping cool photos, or planning my next adventure. Oh, and I might be 
+              binging some Netflix (because balance, right?).
             </motion.p>
           </div>
         </div>

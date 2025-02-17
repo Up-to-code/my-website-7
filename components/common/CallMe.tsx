@@ -27,7 +27,7 @@ export default function CallMe() {
         </motion.p>
         <div className="space-x-4">
           <motion.a
-            href="https://wa.me/201234567890" // Replace with your WhatsApp link
+            href="https://wa.me/201142102700" // Replace with your WhatsApp link
             className="inline-block px-8 py-4 bg-teal-800 text-white rounded-full font-semibold text-lg shadow-lg hover:bg-green-600 transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -35,14 +35,7 @@ export default function CallMe() {
             WhatsApp
           </motion.a>
 
-          <motion.a
-            href="https://calendly.com/your-link" // Replace with your booking link
-            className="inline-block px-8 py-4 bg-blue-600 text-white rounded-full font-semibold text-lg shadow-lg hover:bg-blue-700 transition-all duration-300"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Book a Call
-          </motion.a>
+
         </div>
       </div>
     </section>

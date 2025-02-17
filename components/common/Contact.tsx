@@ -58,7 +58,7 @@ export default function Contact() {
             </p>
             <div className="space-y-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Up-to-code"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-foreground hover:text-primary"
@@ -66,17 +66,11 @@ export default function Contact() {
                 <Github className="h-5 w-5" />
                 <span>GitHub</span>
               </a>
-              <a href="tel:+201234567890" className="flex items-center space-x-2 text-foreground hover:text-primary">
+              <a href="tel:+201142102700" className="flex items-center space-x-2 text-foreground hover:text-primary">
                 <Phone className="h-5 w-5" />
                 <span>+20 123 456 7890</span>
               </a>
-              <a
-                href="mailto:someone@example.com"
-                className="flex items-center space-x-2 text-foreground hover:text-primary"
-              >
-                <Mail className="h-5 w-5" />
-                <span>someone@example.com</span>
-              </a>
+        
             </div>
           </div>
           <div className="md:w-2/3">
