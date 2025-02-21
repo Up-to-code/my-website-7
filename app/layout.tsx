@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: 'موقع أحمد منصور',
     images: [
       {
-        url: 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;color:transparent',
+        url: 'https://my-website-7.vercel.app/me.jpg',
         width: 1200,
         height: 630,
         alt: 'صورة لموقع أحمد منصور',
