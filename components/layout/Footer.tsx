@@ -33,7 +33,7 @@ export default function Footer() {
             <div className="flex space-x-4">
         
               <a
-                href="https://www.tiktok.com/@yourusername"
+                href="https://www.tiktok.com/@ahmed_psychologyhub"
                 target="_blank"
                 className="flex items-center gap-2 hover:text-red-500 transition-colors"
               >
