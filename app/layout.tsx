@@ -40,6 +40,7 @@ export const metadata: Metadata = {
     images: ['https://my-website-7.vercel.app/twitter-image.jpg'],
     creator: '@ahmed_mansour',
   },
+ 
 };
 
 
