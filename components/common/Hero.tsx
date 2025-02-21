@@ -126,13 +126,11 @@ export default function MinimalistHero() {
             className="pt-4"
           >
             <a
-              href="#contact"
-              className="inline-block bg-gray-800 text-white px-8 py-4 rounded-lg text-lg font-medium
-                         transition-all duration-300 ease-out
-                         hover:bg-gray-700 hover:shadow-lg hover:scale-105
-                         active:scale-95"
+              href="http://wa.me/201142102700"
+              className="inline-block bg-gray-800 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 ease-out hover:bg-gray-700 hover:shadow-lg hover:scale-105 active:scale-95" 
+              target="_blank"
             >
-              Get in touch
+              Call me
             </a>
           </motion.div>
         </motion.div>
