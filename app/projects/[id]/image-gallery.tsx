@@ -38,7 +38,7 @@ export function ImageGallery({ images }: { images: string[] }) {
             <img
               src={selectedImage || "/placeholder.svg"}
               alt="Project image"
-              className="w-full h-full max-h-72 object-contain"
+              className="w-full h-full max-h-[80vh] object-cover"
             />
           )}
         </DialogContent>
