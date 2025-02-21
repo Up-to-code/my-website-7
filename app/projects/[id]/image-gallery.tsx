@@ -19,7 +19,7 @@ export function ImageGallery({ images }: { images: string[] }) {
             <img
               src={image || "/placeholder.svg"}
               alt={`Project image ${index + 1}`}
-              className="w-full h-full object-cover transition-transform group-hover:scale-105"
+              className="w-full h-full max-h-80 object-cover transition-transform group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity" />
           </button>
