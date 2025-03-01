@@ -39,7 +39,7 @@ export default function MinimalistHero() {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center bg-gradient-to-br from-white to-gray-100 text-gray-800 p-8 relative overflow-hidden container">
+    <section className="min-h-screen flex items-center bg-gradient-to-br from-white to-gray-100 text-gray-800 p-8 relative overflow-hidden container m-auto">
       {/* Subtle background patterns */}
       <div className="absolute inset-0 bg-grid-gray-200/50 opacity-30" />
 
